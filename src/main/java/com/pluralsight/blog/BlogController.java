@@ -14,7 +14,7 @@ public class BlogController {
     private PostRepository postRepository;
 
     public BlogController(PostRepository postRepository) {
-        postRepository = this.postRepository;
+        this.postRepository = postRepository;
     }
 
     @RequestMapping("/")
